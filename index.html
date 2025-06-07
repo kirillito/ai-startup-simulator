@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Artificially Inflated: AI Startup Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧠 Artificially Inflated</h1>
+    <p>You are the Chief Visionary Disruption Evangelist. Try not to implode.</p>
+  </header>
+
+  <section id="meters">
+    <div>Investor Confidence: <span id="meter-investor">80%</span></div>
+    <div>Public Fascination: <span id="meter-public">90%</span></div>
+    <div>Actual Capability: <span id="meter-capability">7%</span></div>
+  </section>
+
+  <section id="actions">
+    <button onclick="launchFakeDemo()">🚀 Launch Demo</button>
+    <button onclick="writePressRelease()">📰 Write Press Release</button>
+    <button onclick="attendPitch()">💼 Pitch to VCs</button>
+    <button onclick="fireEthicsOfficer()">🔥 Fire Ethics Officer</button>
+  </section>
+
+  <section id="event-log">
+    <h2>Startup Feed</h2>
+    <div id="log-messages"></div>
+  </section>
+
+  <script src="data/events.js"></script>
+  <script src="ui/hud.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
